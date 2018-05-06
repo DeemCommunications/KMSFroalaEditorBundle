@@ -330,8 +330,8 @@
 		{
 			// ------------------------- DECLARE ---------------------------//
 
-			// TODO: use web directory specified by user if different.
-			return $p_rootDir . "/../web/" . $p_folder;
+			// TODO: use public directory specified by user if different.
+			return $p_rootDir . "/../public/" . $p_folder;
 		}
 
 		/**
